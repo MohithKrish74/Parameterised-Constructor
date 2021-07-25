@@ -9,7 +9,7 @@ class Student
 {
     int roll_no;
     String student_name;
-    public Student(int roll,String name)       // Default Constructor
+    public Student(int roll,String name)       // Parameterised Constructor
    {
        roll_no=roll;
        student_name=name;
