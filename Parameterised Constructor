@@ -1,0 +1,38 @@
+package com.company;
+
+import com.sun.jdi.Value;
+import org.w3c.dom.ls.LSOutput;
+
+import java.security.spec.RSAOtherPrimeInfo;
+import java.util.*;
+class Student
+{
+    int roll_no;
+    String student_name;
+    public Student(int roll,String name)       // Default Constructor
+   {
+       roll_no=roll;
+       student_name=name;
+       System.out.println(roll_no+" "+student_name);
+   }
+}
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Student obj =new Student(1,"Ram");
+
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
